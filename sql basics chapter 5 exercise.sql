@@ -1,0 +1,1 @@
+SELECT count(distinct imdb_rating), STDDEV(imdb_rating) from movies
