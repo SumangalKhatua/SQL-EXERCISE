@@ -1,0 +1,1 @@
+SELECT concat(variant_name," - ",name) as full_name,(price + variant_price) as full_price FROM food_db.items cross join food_db.variants
